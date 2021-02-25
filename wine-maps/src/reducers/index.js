@@ -1,2 +1,6 @@
 import { combineReducers } from 'redux';
-import wineriesReducer from './wineriesReducer';
+import wineryReducer from './wineryReducer';
+
+const rootReducer = combineReducers({
+    wineryReducer 
+})
