@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-function App() {
-  return (
-    <div className="App">
-      <h2>Wineries</h2>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div className="App">
+        <h2>Wineries</h2>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default connect()(App);
