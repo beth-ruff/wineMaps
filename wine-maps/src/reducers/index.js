@@ -4,3 +4,5 @@ import wineryReducer from './wineryReducer';
 const rootReducer = combineReducers({
     wineryReducer 
 })
+
+export default rootReducer;
